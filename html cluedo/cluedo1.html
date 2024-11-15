@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cluedo - Accueil</title>
+    <link rel="stylesheet" href="cluedo.css">
+</head>
+<body>
+    <!-- Fond décoratif -->
+    <div class="background"></div>
+
+    <!-- Cadre transparent centré -->
+    <div class="centered-frame">
+        <h1>Bienvenue dans le manoir du Cluedo</h1>
+        <p>Explorez le manoir et découvrez qui est le meurtrier, avec quelle arme et dans quelle pièce.</p>
+        <button onclick="startGame()">Commencer une nouvelle partie</button>
+        <button onclick="regle()">Regle du jeu</button>
+    </div>
+
+    <script>
+        function startGame() {
+           window.location.href = "startgame.html"
+        }
+        function regle() {
+            window.location.href = "file:///C:/Users/SAOUD/Desktop/html%20cluedo/regle.html";
+        }
+    </script>
+</body>
+</html>
